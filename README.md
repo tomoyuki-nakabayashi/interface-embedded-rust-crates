@@ -3,6 +3,7 @@
 CQ出版インターフェース連載「組み込みRustのライブラリ便利クレート探偵団」のソースコードリポジトリです。 質問や困ったことがあれば [issues](https://github.com/tomoyuki-nakabayashi/interface-embedded-rust-crates/issues) へお気軽にどうぞ！
 
 - [第1回 マイコンなどリソースに制約があるデバイスを対象としたロギング・フレームワーク](202403/knurling-rs-nrf52840)
+- [第2回 便利機能満載の汎用デバッグ・ツールキット probe-rs](202404/probe-rs)
 
 # License
 

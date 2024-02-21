@@ -1,0 +1,39 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "preLaunchTask": "${defaultBuildTask}",
+        "type": "probe-rs-debug",
+        "request": "launch",
+        "name": "probe_rs Executable Test",
+        "cwd": "${workspaceFolder}",
+        "chip": "nRF52840_xxAA",
+        "flashingConfig": {
+          "flashingEnabled": true,
+          "haltAfterReset": false
+        },
+        "coreConfigs": [
+          {
+            "coreIndex": 0,
+            "programBinary": "${workspaceFolder}/target/thumbv7em-none-eabihf/debug/probe-rs-example",
+            "svdFile": "${workspaceFolder}/nrf52840.svd",
+            "rttEnabled": true,
+            "rttChannelFormats": [
+              {
+                "channelNumber": 0,
+                "dataFormat": "String",
+                "showTimestamps": true
+              },
+              {
+                "channelNumber": 1,
+                "dataFormat": "BinaryLE"
+              }
+            ]
+          }
+        ],
+        "env": {
+          "DEFMT_LOG": "debug"
+        }
+      }
+    ]
+}
