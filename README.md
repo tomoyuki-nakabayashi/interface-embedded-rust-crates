@@ -7,6 +7,7 @@ CQ出版インターフェース連載「組み込みRustのライブラリ便�
 - [第3回 マイコンでも動的メモリ確保ができる embedded-alloc](202406/embedded-alloc)
 - [第4回 メモリ使用量や最悪実行時間が見積もれるheapless](202407/heapless)
 - [第5回 heaplessによるキューとスマート・ポインタ](202409/heapless-2/)
+- [第6回 任意のデータをシリアライズ/デシリアライズするserde](202410/serde/)
 
 # License
 
