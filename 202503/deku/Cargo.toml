@@ -1,0 +1,7 @@
+[package]
+name = "deku-example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+"deku" = "0.18.1"
